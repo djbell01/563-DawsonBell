@@ -1,0 +1,25 @@
+# This file was created Fri May  9 09:52:30 2025
+# Created by:
+#                      :-) GROMACS - gmx energy, 2020.3 (-:
+# 
+# Executable:   /cm/shared/apps/gromacs/gcc/2020/bin/gmx_mpi
+# Data prefix:  /cm/shared/apps/gromacs/gcc/2020
+# Working dir:  /bsuscratch/dawsonbell/mse_final/pg_2x
+# Command line:
+#   gmx_mpi energy -f min.edr -o min_PE.xvg
+# gmx energy is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "GROMACS Energies"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "(kJ/mol)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Potential"
+    0.000000  5686769664.000000

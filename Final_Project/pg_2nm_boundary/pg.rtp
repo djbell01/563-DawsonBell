@@ -1,0 +1,40 @@
+[ bondedtypes ]
+; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih
+;  4      1       3          1         1             3      1    0
+; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih
+     1       1          3          1        1         3      1     0
+
+; PG
+[ PG ]
+ [ atoms ]
+CZ1     opls_166     0.150     1
+CZ2     opls_166     0.150     5
+CZ3     opls_166     0.150     6
+CE1     opls_145     0.115     2
+CE2     opls_145     0.115     3
+CE3     opls_145     0.115     4
+OH1     opls_167    -0.585     1
+OH2     opls_167    -0.585     5 
+OH3     opls_167    -0.585     6
+HE1      opls_146   -0.115   2
+HE2      opls_146   -0.115   3
+HE3      opls_146   -0.115   4
+HH1      opls_168    0.435     1
+HH2      opls_168    0.435     5
+HH3      opls_168    0.435     6
+
+ [ bonds ]
+CZ1 OH1
+CZ1 CE1
+CZ1 CE3
+OH1 HH1
+CE1 HE1
+CE1 CZ2
+CZ2 OH2
+CZ2 CE2
+OH2 HH2
+CE2 HE2
+CE2 CZ3
+CZ3 OH3
+CZ3 CE3
+OH3 HH3
